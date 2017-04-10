@@ -2,6 +2,14 @@
 
 
 /** Example rules used by the template application (remove for your app) */
+table {
+  width: 100%;
+  height: 100%;
+}
+tbody {
+  width: 100%;
+  height: 100%;
+}
 h1 {
   font-size: 2em;
   font-weight: bold;
@@ -31,4 +39,26 @@ h1 {
 /** Set ids using widget.getElement().setId("idOfElement") */
 #closeButton {
   margin: 15px 6px 6px;
+}
+
+.title {
+  height: 100px;
+  width: 100%;
+}
+
+.leftSide {
+  width: 300px;
+  height: auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  height: 100px;
+  width: 100%;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
 }
